@@ -1,12 +1,9 @@
 function randomRGB(){
     const r = Math.floor(Math.random() * 256);
-    const g =0;
+    const g = 0;
     const b = Math.floor(Math.random() * 256);
     return `rgb(${r}, ${g}, ${b})`
 };
-
-
-
 
 //1 To change each letter independently
 const letters = document. querySelectorAll('.letter');
